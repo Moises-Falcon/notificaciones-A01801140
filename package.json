@@ -1,0 +1,27 @@
+{
+  "name": "notificaciones-a01801140",
+  "version": "1.0.0",
+  "description": "API REST de notificaciones - matricula A01801140",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config dist/index.js",
+    "build:start": "tsc && node -r dotenv/config dist/index.js"
+  },
+  "keywords": ["notificaciones", "mongodb", "typegoose"],
+  "author": "Moises Falcon - A01801140",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@typegoose/typegoose": "^13.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "typescript": "^5.6.2"
+  }
+}
